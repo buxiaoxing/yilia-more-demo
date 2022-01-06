@@ -2,25 +2,25 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
+  随笔: /tags/js/
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/buxiaoxing"
+  # weibo: "#"
+  # rss: "#"
+  # zhihu: "#"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
   #douban: "#"
   #segmentfault: "#"
-  #bilibili: "#"
+  # bilibili: "#"
   #acfun: "#"
   #mail: "mailto:litten225@qq.com"
   #facebook: "#"
   #google: "#"
-  #twitter: "#"
+  twitter: "https://twitter.com/BuDaxing"
   #linkedin: "#"
 
 rss: /atom.xml
@@ -47,13 +47,13 @@ reward_type: 0
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: 
+alipay:
 # 微信二维码图片地址
-weixin: 
+weixin:
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
-toc: 2
+toc: 1
 # 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
 toc_hide_index: true
 # 目录为空时的提示
@@ -69,7 +69,7 @@ favicon: /favicon.png
 
 #你的头像url
 avatar:
-
+author: 布小星
 #是否开启分享
 share_jia: false
 
@@ -107,7 +107,7 @@ style:
 # slider的设置
 slider:
   # 是否默认展开tags板块
-  showTags: false
+  showTags: true
 
 # 智能菜单
 # 如不需要，将该对应项置为false

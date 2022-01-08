@@ -4,7 +4,6 @@
 
 # Site
 title: 布小星
-subtitle: I'm thinking
 description: 布小星_技术博客
 keywords: 前端,js,ts,react,vue,java,python,nodejs,算法,考研,IT,商城,成长,心态,随笔
 author: 布小星
@@ -90,9 +89,9 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
-ignore:
+# include:
+# exclude:
+# ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/

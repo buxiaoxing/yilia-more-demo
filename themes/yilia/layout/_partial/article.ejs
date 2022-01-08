@@ -87,7 +87,7 @@
       url: config.url+url_for(post.path)
     }) %>
   <% } %>
-  
+
   <% if (theme.wangyiyun){ %>
   <%- partial('post/wangyiyun', {
       key: post.slug,
@@ -128,5 +128,15 @@
       title: post.title,
       url: config.url+url_for(post.path)
     }) %>
+  <% } %>
+
+  <% if (theme.valine && theme.valine.appid && theme.valine.appkey){ %>
+    <section id="comments" style="margin:10px 30px;padding:30px;background:#fff;">
+      <%- partial('post/valine', {
+        key: post.slug,
+        title: post.title,
+        url: config.url+url_for(post.path)
+        }) %>
+    </section>
   <% } %>
 <% } %>

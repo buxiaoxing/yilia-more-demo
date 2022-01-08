@@ -5,10 +5,11 @@ tags:
     - node
     - npm
 description: node-sass安装报错
+keyword: node-sass
 ---
 
 > node-sass 我从来没有见过这么难安装的模块，网上一搜答案很多，大部分都是给 npm 设置镜像就可以解决，但我 npm 试了很多设置镜像的方法，最后还是会报错，设置镜像方法具体如下
-
+<!--more-->
 - 将所有依赖设置会淘宝镜像
 
   `npm config set registry https://registry.npm.taobao.org/`

@@ -63,10 +63,10 @@ top: true
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /favicon.png
+favicon: /assets/img/favicon.ico
 
 #你的头像url
-avatar: img/avatar.png
+avatar: /assets/img/avatar.jpg
 author: 布小星
 #是否开启分享
 share_jia: false
@@ -131,4 +131,4 @@ friends:
   归类笔记: https://gitee.com/buxiaoxing/note
   个人简历: https://github.com/buxiaoxing/resume
 
-aboutme: 我知道我终会死去<br/>正如我知道明天的太阳会从东方升起<br/><br/>我只是希望在我垂死之际<br/>除了回忆<br/>还有别的东西帮我克服恐惧<br/><br/>比如这些笔记
+aboutme: 我知道我终会死去<br/><br/>正如我知道明天的太阳会从东方升起<br/><br/><br/><br/>我只是希望在我垂死之际<br/><br/>除了回忆<br/><br/>还有别的东西帮我克服恐惧<br/><br/><br/><br/>比如这些笔记

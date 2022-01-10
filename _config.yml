@@ -104,6 +104,7 @@ theme: yilia
 deploy:
   type: git
   repo: git@github.com:buxiaoxing/buxiaoxing.github.io.git
+  # repo: https://gitee.com/buxiaoxing/buxiaoxing
   branch: master
   
 jsonContent:

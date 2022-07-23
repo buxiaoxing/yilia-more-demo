@@ -2,8 +2,8 @@
 title: node-sass的安装
 date: 2021-12-06 09:16:22
 tags:
-    - node
     - npm
+    - 前端
 description: node-sass安装报错
 keyword: node-sass
 ---

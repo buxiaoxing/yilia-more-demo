@@ -3,6 +3,7 @@ title: nvm管理node版本
 date: 2022-01-06 15:48:18
 tags:
     - node
+    - 前端
 description: nvm管理node版本
 keyword: nvm node版本
 ---

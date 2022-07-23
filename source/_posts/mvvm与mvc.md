@@ -2,8 +2,8 @@
 title: mvvm与mvc
 date: 2022-03-03 17:55:05
 tags:
-    - 框架
     - js
+    - 前端
 ---
 **mvc一般是后端的概念，mvvm是前端的概念**
 <!--more-->

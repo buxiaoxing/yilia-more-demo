@@ -3,6 +3,7 @@ title: 事件循环(eventLoop)
 date: 2022-03-03 17:01:37
 tags:
     - js
+    - 前端
 ---
 - 宏任务与微任务
 <!--more-->

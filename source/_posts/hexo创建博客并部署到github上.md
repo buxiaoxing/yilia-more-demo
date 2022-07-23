@@ -3,7 +3,7 @@ title: hexo创建博客并部署到github上
 date: 2022-01-08 15:13:25
 tags:
     - hexo
-    - yilia
+    - 前端
 description: hexo创建博客并部署到github上
 keyword: hexo yilia
 ---

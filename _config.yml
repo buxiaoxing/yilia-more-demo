@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 布小星
+title: 布小星的笔记
 subtitle: I'm thinking...
 description: 布小星_技术博客
 keywords: 前端,js,ts,react,vue,java,python,nodejs,算法,考研,IT,商城,成长,心态,随笔
@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://blog.buxiaoxing.com/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -125,3 +125,13 @@ jsonContent:
       excerpt: false
       categories: false
       tags: true
+      
+# Extensions
+plugins:
+  hexo-generator-feed
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  icon: /assets/img/icon.png

@@ -12,7 +12,7 @@ hexo-theme-yilia-valine
 > **同时也欢迎相同爱好者加入一起维护此项目**
 
 #### Hero-theme-yilia-valine在原基础上做了以下升级
-> 由于yilia主题强调简洁，所以这里并未做过多修改，只是增加了一个简洁的评论系统
+> 由于yilia主题强调简洁，所以这里并未做过多修改，只是增加了一个简洁的评论系统和访问统计
 
 - 新增Valine评论系统及样式兼容（无需登陆即可评论）
 - 一些样式调整
@@ -215,7 +215,7 @@ aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
 
   >  这是由于hexo版本太高了，推荐使用 `3.9.0`
 
-- [`node-sass` 依赖无法安装问题](https://www.buxiaoxing.com/2021/12/06/node-sass%E7%9A%84%E5%AE%89%E8%A3%85/)
+- [`node-sass` 依赖无法安装问题](https://blog.buxiaoxing.com/2021/12/06/node-sass%E7%9A%84%E5%AE%89%E8%A3%85/)
 
 - `hexo g` 生成 `index.html` 文件为空
 

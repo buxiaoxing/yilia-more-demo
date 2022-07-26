@@ -103,8 +103,9 @@ theme: yilia-valine
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:buxiaoxing/buxiaoxing.github.io.git
-  # repo: https://gitee.com/buxiaoxing/buxiaoxing
+  repo: 
+    github: git@github.com:buxiaoxing/buxiaoxing.github.io.git
+    coding: git@e.coding.net:buxiaoxing/buxiaoxing/buxiaoxing.git
   branch: master
   
 jsonContent:

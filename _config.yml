@@ -104,8 +104,8 @@ theme: yilia-more
 deploy:
   - type: git
     repo: 
-      coding: git@e.coding.net:serverless-100013864062/buxiaoxing/buxiaoxing.git
-      github: git@github.com:buxiaoxing/buxiaoxing.github.io.git
+      coding: 
+      github: 
     branch: master
   - type: baidu_url_submitter
 jsonContent:
@@ -141,7 +141,7 @@ feed:
 baidu_url_submit:
   count: 80             # 提交最新的一个链接
   host: www.buxiaoxing.com    # 你的域名
-  token: biTrVjZfsD3jWWJ5
+  token: 
   path: baidu_urls.txt  # 文本文档的地址，新链接会保存在此文本文档里
 
 abbrlink:

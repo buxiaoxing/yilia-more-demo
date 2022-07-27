@@ -1,11 +1,12 @@
 ---
 title: node-sass的安装
-date: 2021-12-06 09:16:22
 tags:
-    - npm
-    - 前端
+  - npm
+  - 前端
 description: node-sass安装报错
 keyword: node-sass
+abbrlink: dd1d
+date: 2021-12-06 09:16:22
 ---
 **我看见我在寻求不被爱的痛苦感受，我全心接纳这种感受，并且放下对它的需要**
 <!--more-->

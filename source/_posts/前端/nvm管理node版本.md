@@ -1,11 +1,12 @@
 ---
 title: nvm管理node版本
-date: 2022-01-06 15:48:18
 tags:
-    - node
-    - 前端
+  - node
+  - 前端
 description: nvm管理node版本
 keyword: nvm node版本
+abbrlink: '32e6'
+date: 2022-01-06 15:48:18
 ---
 **给人类带来最大浩劫的，往往是自诩为高尚的东西**
 <!--more-->

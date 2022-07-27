@@ -1,10 +1,11 @@
 ---
 title: js与nodejs
-date: 2022-07-25 14:15:40
 tags:
   - js
   - 后端
   - nodejs
+abbrlink: ce0e
+date: 2022-07-25 14:15:40
 ---
 **歧视者总是躲在阴暗角落拉帮结派，却终见不得光**
 <!--more-->

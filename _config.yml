@@ -13,8 +13,8 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.buxiaoxing.com/
-permalink: :year/:month/:day/:title/
+url: https://www.buxiaoxing.com/
+permalink: post/:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -102,12 +102,12 @@ theme: yilia-valine
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: 
-    github: git@github.com:buxiaoxing/buxiaoxing.github.io.git
-    coding: git@e.coding.net:buxiaoxing/buxiaoxing/buxiaoxing.git
-  branch: master
-  
+  - type: git
+    repo: 
+      coding: git@e.coding.net:serverless-100013864062/buxiaoxing/buxiaoxing.git
+      github: git@github.com:buxiaoxing/buxiaoxing.github.io.git
+    branch: master
+  - type: baidu_url_submitter
 jsonContent:
     meta: false
     pages: false
@@ -136,3 +136,14 @@ feed:
   path: atom.xml
   limit: 20
   icon: /assets/img/icon.png
+
+# 百度主动推送插件
+baidu_url_submit:
+  count: 80             # 提交最新的一个链接
+  host: www.buxiaoxing.com    # 你的域名
+  token: biTrVjZfsD3jWWJ5
+  path: baidu_urls.txt  # 文本文档的地址，新链接会保存在此文本文档里
+
+abbrlink:
+  alg: crc16        # 可选crc32，比crc16复杂一点，长一点
+  rep: hex          # 可选dec，十进制数

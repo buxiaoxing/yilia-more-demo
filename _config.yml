@@ -4,7 +4,7 @@
 
 # Site
 title: 布小星的笔记
-subtitle: I'm thinking...
+subtitle: 写不出惊鸿一场 逃不过碎银几两
 description: 布小星_技术博客
 keywords: 前端,js,ts,react,vue,java,python,nodejs,算法,考研,IT,商城,成长,心态,随笔
 author: 布小星
@@ -97,7 +97,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia-valine
+theme: yilia-more
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
